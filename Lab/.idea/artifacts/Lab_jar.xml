@@ -1,7 +1,7 @@
 <component name="ArtifactManager">
-  <artifact type="jlink" build-on-make="true" name="Lab:jar">
+  <artifact type="jar" name="Lab:jar">
     <output-path>$PROJECT_DIR$/out/artifacts/Lab_jar</output-path>
-    <root id="root">
+    <root id="archive" name="Lab.jar">
       <element id="module-output" name="Lab" />
     </root>
   </artifact>

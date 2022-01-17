@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Start {
@@ -16,8 +17,26 @@ public class Start {
 //        student.rollNo = studentArray[2];
 //        student.dob = studentArray[3];
 
-        Mobile mobile = new Mobile();
-        mobile.start();
+//        Mobile mobile = new Mobile();
+//        mobile.start();
+
+
+//        String[] st = new String[20];
+//
+//        ArrayList<Bike> arrayList = new ArrayList<>();
+//
+//        Bike b = new Bike();
+//        b.company = "yamaha";
+//        b.name = "R15";
+//        b.cc = "200CC";
+//
+//        arrayList.add(b);
+//
+//        System.out.println(arrayList.toString());
+
+
+        Bike bike = new Bike();
+        bike.init();
 
 
 
